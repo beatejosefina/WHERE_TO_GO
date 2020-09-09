@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang=eng> <!--language-->
+  <head>
+    <meta charset="utf-8"> <!--meta data-->
+    <title>NÅ?</title>  <!--tab title on webbpage-->
+    <link rel="icon" href="./media/iconmonstr-arrow-31-48.png"> <!--browser icon-->
+    <link href="style.css" rel="stylesheet" type="text/css"> <!--link to connect css with html-->
+  </head>
+  <body>
+
+    <!--vido-time-->
+    <video autoplay muted loop id="myVideo">
+      <source src="./media/orginal.mp4" type="video/mp4">
+    </video>
+
+    <!-- overlay text -->
+    <div class="content">
+      <h1 class="naVars">NÅ VARS?</h1>
+      <p class="intro">Digitalt stokastiskt hjälpmedel tillägnat den velige museum flanören</p>
+      <div class="resultSection"></div>
+      <button class="submit">KBK</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(function () {
+        $('.resultSection').hide()
+
+        /*List of museums*/
+        var options = ['Skansen', 'Vasamuseet', 'Nationalmuseum', 'Naturhistoriska riskmuseet', 'Moderna museet', 'Takniska museet', 'Nordiska museet', 'Stadsmuseet', 'Livrustkammaren', 'Historiska museet', 'Sjöhistoriska museet' ];
+
+        /*functionallty related to the submit button*/
+        var submit = function () {
+          $('.intro').text("Nå, det blir en eftermiddag på")
+          $('.resultSection').css('display', 'flex')
+          $('.naVars').hide()
+          var winner = options[Math.floor(Math.random() * options.length)]
+          console.log(winner)
+          $('.resultSection').text(winner)
+        }
+        $('.submit').click(submit)
+      })
+    </script>
+
+    <!--Footer whit link to video source-->
+    <div class="foot">
+      <footer>
+        <p>Video by <a href="https://www.pexels.com/@cottonbro">cottonbro</a> from Pexels</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
