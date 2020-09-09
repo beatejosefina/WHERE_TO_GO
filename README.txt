@@ -12,6 +12,7 @@ To Do:
 - (Add Google Maps feature: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html)
 - (Crop Video and update CSS accordingly)
 - Time dependence on intro text (am, pm; "det blir en **** på")
+- Change extern links to "open new tab"-type
 
 Done:
 - Video/icon files in separate media folder
