@@ -10,6 +10,7 @@ To add:
 - Smartphone-proofed layout
 - (Add Google Maps feature: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html)
 - (Crop Video and update CSS accordingly)
+- time dependence on intro text (am, pm)
 
 Done:
 - Video/icon files in seperate media folder
