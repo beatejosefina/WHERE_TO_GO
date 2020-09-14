@@ -5,6 +5,7 @@ Video source:https://www.pexels.com/@cottonbro (https://www.pexels.com)
 Icon source: https://iconmonstr.com/arrow-31-png/ (https://iconmonstr.com/)
 
 To Do:
+- Troubleshoot video streaming issue
 - <a> Link to selected Museum (result)
 - Load an extended Museum list (based on https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_museer_i_Stockholmsregionen) from a separate txt.file
 - Updated CSS for more consistency in design
