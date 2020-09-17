@@ -19,3 +19,4 @@ Done:
 - Video/icon files in separate media folder
 - Test_Cropped background Video with https://clideo.com/editor/crop-video
 - Updated the CSS for the position of the submit button
+- JS in separate file

@@ -5,6 +5,7 @@
     <title>NÅ?</title>  <!--tab title on webbpage-->
     <link rel="icon" href="./media/iconmonstr-arrow-31-48.png"> <!--browser icon-->
     <link href="style.css" rel="stylesheet" type="text/css"> <!--link to connect css with html-->
+    <script src="script.js"></script>
   </head>
   <body>
 
@@ -20,28 +21,7 @@
       <div class="resultSection"></div>
       <button class="submit">KBK</button>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script>
-      $(function () {
-        $('.resultSection').hide()
-
-        /*List of museums*/
-        var options = ['Skansen', 'Vasamuseet', 'Nationalmuseum', 'Naturhistoriska riskmuseet', 'Moderna museet', 'Tekniska museet', 'Nordiska museet', 'Stadsmuseet', 'Livrustkammaren', 'Historiska museet', 'Sjöhistoriska museet' ];
-
-        /*functionallty related to the submit button*/
-        var submit = function () {
-          $('.intro').text("Nå, det blir en eftermiddag på")
-          $('.resultSection').css('display', 'flex')
-          $('.naVars').hide()
-          var winner = options[Math.floor(Math.random() * options.length)]
-          console.log(winner)
-          $('.resultSection').text(winner)
-        }
-        $('.submit').click(submit)
-      })
-    </script>
-
+  
     <!--Footer whit link to video source-->
     <div class="foot">
       <footer>
