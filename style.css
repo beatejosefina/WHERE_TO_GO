@@ -1,9 +1,13 @@
-h1 {
-  font-weight: lighter;
-  font-size: 60px;
+body {
   font-family:'Roboto',sans-serif;
   font-weight:bold;
   text-align:center;
+}
+
+
+h1 {
+  /*font-weight: lighter;*/
+  font-size: 60px;
   letter-spacing: 2px;
   margin-bottom: 0px;
 }
@@ -18,9 +22,6 @@ button {
   font: inherit;
   color: #a3988d;
   background-color: transparent;
-  font-family:'Roboto',sans-serif;
-  font-weight:bold;
-  text-align:center;
   cursor: pointer;
   transition-duration: 0.4s;
 }
@@ -51,8 +52,6 @@ button:hover {
   padding: 40px;
   height: 250px;
   width: 100%;
-  text-align: center;
-  font-family:'Roboto',sans-serif;
   font-size: 18px;
   flex-direction: column;
   flex-wrap: wrap;
@@ -60,14 +59,10 @@ button:hover {
 
 .resultSection {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 50px;
-  font-weight: lighter;
   font-size: 35px;
-  font-family:'Roboto',sans-serif;
-  font-weight:bold;
   letter-spacing: 1.5px;
+  justify-content: center;
 }
 
 a {
@@ -81,6 +76,4 @@ a {
   color: #6E6659;
   width: 100%;
   padding: 10px;
-  text-align: center;
-  font-family:'Roboto',sans-serif;
 }
